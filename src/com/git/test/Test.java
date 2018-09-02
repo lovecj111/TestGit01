@@ -12,7 +12,7 @@ public class Test {
 		personList.add(new Person(2, "B"));
 		personList.add(new Person(3, "C"));
 		System.out.println(personList);
-		
+		System.out.println("ABCABCABC");
 		System.out.println("Test---");
 	}
 }
