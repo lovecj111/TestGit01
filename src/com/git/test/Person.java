@@ -4,10 +4,12 @@ public class Person {
 
 	private int id;
 	private String name;
+	private int score;
 	
-	public Person(int id, String name) {
+	public Person(int id, String name, int score) {
 		this.id = id;
 		this.name = name;
+		this.score = score;
 	}
 	
 	public int getId() {
@@ -22,9 +24,15 @@ public class Person {
 	public void setName(String name) {
 		this.name = name;
 	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
 
 	@Override
 	public String toString() {
-		return "Person [id=" + id + ", name=" + name + "]";
+		return "Person [id=" + id + ", name=" + name + ", score=" + score + "]";
 	}
 }
